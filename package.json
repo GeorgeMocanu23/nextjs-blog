@@ -6,11 +6,35 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.9",
+    "@mui/joy": "^5.0.0-beta.7",
+    "@mui/material": "^5.14.15",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.3",
+    "@prisma/client": "^5.3.1",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "bcrypt": "^5.1.1",
+    "date-fns": "^2.30.0",
+    "gray-matter": "^4.0.3",
     "next": "latest",
+    "next-auth": "^4.23.1",
+    "pdfjs-dist": "^3.11.174",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-confetti": "^6.1.0",
+    "react-dom": "18.2.0",
+    "react-pdf": "^7.4.0",
+    "react-quill": "^2.0.0",
+    "remark": "^14.0.3",
+    "remark-html": "^15.0.2",
+    "styled-components": "^6.1.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.6.2",
+    "prisma": "^5.3.1"
   }
 }

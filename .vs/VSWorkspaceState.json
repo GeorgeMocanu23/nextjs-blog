@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\components\\auth",
+    "\\components\\common",
+    "\\pages",
+    "\\pages\\api",
+    "\\pages\\api\\auth",
+    "\\pages\\api\\user",
+    "\\pages\\posts",
+    "\\posts"
+  ],
+  "PreviewInSolutionExplorer": false
+}
