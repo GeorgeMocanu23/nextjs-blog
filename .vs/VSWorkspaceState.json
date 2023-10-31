@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\components",
-    "\\components\\auth",
     "\\components\\common",
     "\\pages",
     "\\pages\\api",
-    "\\pages\\api\\auth",
     "\\pages\\api\\user",
-    "\\pages\\posts",
-    "\\posts"
+    "\\prisma",
+    "\\public",
+    "\\public\\documents",
+    "\\public\\images"
   ],
+  "SelectedNode": "\\components\\common\\ProfilePicture.tsx",
   "PreviewInSolutionExplorer": false
 }
