@@ -6,8 +6,12 @@ const nextConfig = {
     config.module.rules.push({
       test: /\.node/,
       use: "raw-loader",
-    });
+    })
     return config;
   },
-};
-module.exports = nextConfig;
+  experimental: {
+    esmExternals: true,
+  },
+}
+
+module.exports = nextConfig
