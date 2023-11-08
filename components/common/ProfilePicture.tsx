@@ -18,7 +18,10 @@ function ProfilePicture() {
   useEffect(() => {
     const fetchRatings = async () => {
       try {
-        const response = await fetch('/api/ratings')
+        const apiUrl = process.env.SITE_URL ? `${process.env.SITE_URL}/api/ratings` : '/api/ratings';
+
+        const response = await fetch(apiUrl)
+
         const ratings = await response.json()
 
         const totalRating =
