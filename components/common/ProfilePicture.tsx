@@ -18,9 +18,12 @@ function ProfilePicture() {
   useEffect(() => {
     const fetchRatings = async () => {
       try {
-        const apiUrl = process.env.SITE_URL ? `${process.env.SITE_URL}/api/ratings` : '/api/ratings';
-
+        const apiUrl = process.env.SITE_URL ? `${process.env.SITE_URL}/api/ratings` : '/api/ratings'
         const response = await fetch(apiUrl)
+
+        if (!response.ok) {
+          throw new Error(`Request failed with status: ${response.status}`)
+        }
 
         const ratings = await response.json()
 
