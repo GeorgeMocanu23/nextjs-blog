@@ -72,59 +72,64 @@ function Register() {
         <Typography variant="h4" align='center' style={{ marginBottom: '10px' }}>
           Register
         </Typography>
-        <TextField
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <PersonIcon />
-              </InputAdornment>
-            ),
-          }}
-          style={{ marginBottom: '16px', width: '100%' }}
-          label="Username"
-          variant="outlined"
-          type="text"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <TextField
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <KeyIcon />
-              </InputAdornment>
-            ),
-          }}
-          style={{ marginBottom: '16px', width: '100%' }}
-          label="Password"
-          variant="outlined"
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <TextField
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <KeyIcon />
-              </InputAdornment>
-            ),
-          }}
-          style={{ marginBottom: '16px', width: '100%' }}
-          label="Reenter Password"
-          variant="outlined"
-          type="password"
-          value={secondPassword}
-          onChange={(e) => setSecondPassword(e.target.value)}
-        />
-        <Button
-          style={{ marginTop: '4px', textTransform: 'none' }}
-          disabled={!username || !password || !secondPassword}
-          variant="contained"
-          onClick={handleRegister}
-        >
-          Register
-        </Button>
+        <form>
+          <TextField
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <PersonIcon />
+                </InputAdornment>
+              ),
+            }}
+            style={{ marginBottom: '16px', width: '100%' }}
+            label="Username"
+            variant="outlined"
+            type="text"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            autoComplete="username"
+          />
+          <TextField
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <KeyIcon />
+                </InputAdornment>
+              ),
+            }}
+            style={{ marginBottom: '16px', width: '100%' }}
+            label="Password"
+            variant="outlined"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            autoComplete="new-password"
+          />
+          <TextField
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <KeyIcon />
+                </InputAdornment>
+              ),
+            }}
+            style={{ marginBottom: '16px', width: '100%' }}
+            label="Reenter Password"
+            variant="outlined"
+            type="password"
+            value={secondPassword}
+            onChange={(e) => setSecondPassword(e.target.value)}
+            autoComplete="new-password"
+          />
+          <Button
+            style={{ marginTop: '4px', textTransform: 'none' }}
+            disabled={!username || !password || !secondPassword}
+            variant="contained"
+            onClick={handleRegister}
+          >
+            Register
+          </Button>
+        </form>
         {error &&
           <Alert
             style={{ marginTop: '16px', marginBottom: '10px', width: '100%' }}
