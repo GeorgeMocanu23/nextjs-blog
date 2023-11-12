@@ -1,9 +1,9 @@
 ﻿---
 title: 'Projects List'
-date: '2023-07-12'
+date: '2023-11-12'
 ---
 
-&emsp; **Title:** [Morse Code Translator](https://stackblitz-starters-jhmkq7.stackblitz.io/)
+&emsp; **Title:** [📡 Morse Code Translator](https://stackblitz-starters-jhmkq7.stackblitz.io/)
 
 &emsp; **Skills**: Material-UI · Translation · UI/UX · React.js · JavaScript
 
@@ -23,7 +23,7 @@ date: '2023-07-12'
 
 ***
 
-&emsp; **Title:** [CryptoCurrency App](https://stackblitz-starters-b58jwz.stackblitz.io/)
+&emsp; **Title:** [💰 CryptoCurrency App](https://stackblitz-starters-b58jwz.stackblitz.io/)
 
 &emsp; **Skills**: Web Services API · Data Manipulation · Material-UI · UI/UX · React.js
 
@@ -60,6 +60,34 @@ Dive into the retro world of gaming with my Snake Game project! 🚀
 🏆 Challenge your friends to beat your high score and claim the title of the ultimate Snake master! 🥇
 
 Explore the game and relive the classic Snake gameplay in a modern digital format. Ready to accept the challenge? Press "Start Game" now! 🐍✨🎮 "Snake Game" Enthusiast 🐍 Dive into the retro world of gaming with my Snake Game project! 🚀 🕹️ Experience the thrill of controlling a snake and collecting apples 🍏 as you strive to achieve the highest score. The game offers an exciting challenge that's both nostalgic and fun. 💻 Developed using HTML5 Canvas and JavaScript, this project showcases my passion for game development and web technology. I've created an engaging and addictive gaming experience for all ages. 🏆 Challenge your friends to beat your high score and claim the title of the ultimate Snake master! 🥇 Explore the game and relive the classic Snake gameplay in a modern digital format. Ready to accept the challenge? Press "Start Game" now! 🐍✨
+
+***
+
+&emsp; **Title:** [🔐 Password Generator App](https://stackblitz-starters-kv6q6u.stackblitz.io)
+
+&emsp; **Skills**: React.js · Crypto API · Window Crypto · ClipboardJS · React Bootstrap
+
+&emsp; **About:**
+
+Generate strong and secure passwords effortlessly with this Password Generator app! Whether you need a password for your email, social media, or any online account, this tool has you covered.
+
+&emsp; **Features**:
+
+✨ **Customizable Length**: Choose the length of your password for ultimate flexibility.
+
+🔄 **Regenerate Option**: Easily regenerate passwords with just a click, ensuring you get a new, unique password each time.
+
+📋 **Copy to Clipboard**: Quickly copy your generated password to the clipboard for seamless use across platforms.
+
+🌐 **Password Strength Indicator**: Thanks to the Window Crypto API, I've devised a solid way to create secure passwords. Tapping into the randomness with my secret sauce, I generate genuinely random passwords and, as a result, more secure. This cryptographic approach amps up the security level of my passwords, adding an extra layer of strength to the overall system.
+
+**How to Use**:
+1. Enter your desired password length.
+2. Click "Generate" to create a new password.
+3. Copy the password to your clipboard with the "Copy to Clipboard" button.
+4. Monitor the password strength indicator to ensure your password meets security standards.
+
+💡 **Tip**: Aim for passwords at least 15 characters long for enhanced security.
 
 ***
 
