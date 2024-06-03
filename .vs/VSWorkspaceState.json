@@ -4,13 +4,13 @@
     "\\components",
     "\\components\\auth",
     "\\components\\common",
-    "\\node_modules\\next",
-    "\\node_modules\\next\\dist",
-    "\\node_modules\\next\\dist\\server",
     "\\pages",
     "\\pages\\api",
-    "\\pages\\api\\user"
+    "\\pages\\api\\user",
+    "\\posts",
+    "\\public",
+    "\\public\\documents"
   ],
-  "SelectedNode": "\\pages\\review-zone.tsx",
+  "SelectedNode": "\\.env",
   "PreviewInSolutionExplorer": false
 }

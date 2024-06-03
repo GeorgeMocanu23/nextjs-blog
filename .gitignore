@@ -36,3 +36,6 @@ node_modules
 
 /.next/
 .vercel
+
+# Exclude Visual Studio specific files and directories
+.vs/
