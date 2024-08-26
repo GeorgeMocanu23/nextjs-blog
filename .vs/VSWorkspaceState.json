@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\components",
-    "\\components\\auth",
-    "\\components\\common",
     "\\pages",
     "\\pages\\api",
-    "\\pages\\api\\user",
-    "\\posts",
+    "\\pages\\api\\auth",
+    "\\pages\\posts",
+    "\\prisma",
+    "\\prisma\\migrations",
     "\\public",
-    "\\public\\documents"
+    "\\public\\images",
+    "\\styles"
   ],
-  "SelectedNode": "\\.env",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
